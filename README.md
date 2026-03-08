@@ -9,7 +9,9 @@ OpenGLApp
 │   └── GLFW
 │   │    └── glfw3.h
 │   └── KHR
-│      └── khrplatform.h
+│   │   └── khrplatform.h
+│   └── glm
+│       └── glm.hpp
 │
 ├── libs
 │   ├── glfw
