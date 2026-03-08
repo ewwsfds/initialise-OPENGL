@@ -26,13 +26,18 @@ OpenGLApp
 
 ```
 Project → Properties → C/C++ → General → Additional Include Directories
+```
 $(ProjectDir)include
-
+```
 
 
 
 Project → Properties → Linker → General → Additional Library Directories
+```
 $(ProjectDir)libs\glfw\lib-vc2022
+```
 
 Linker → Input → Additional Dependencies
+```
 glfw3.lib
+```
