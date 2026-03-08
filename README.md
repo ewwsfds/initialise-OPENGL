@@ -7,7 +7,9 @@ OpenGLApp
 │   ├── glad
 │   │   └── glad.h
 │   └── GLFW
-│       └── glfw3.h
+│   │    └── glfw3.h
+│   └── KHR
+│      └── khrplatform.h
 │
 ├── libs
 │   ├── glfw
@@ -16,4 +18,7 @@ OpenGLApp
 │
 ├── main.cpp
 └── sh_image.cpp
+└── glad.c
+
+
 ```
