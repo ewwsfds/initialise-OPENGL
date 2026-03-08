@@ -15,7 +15,8 @@ OpenGLApp
 │
 ├── libs
 │   ├── glfw
-│   │   └── include
+│   │   └── lib-vc2022
+│   │     └── glfw3.dll
 │   └── glm
 │
 ├── main.cpp
@@ -24,3 +25,14 @@ OpenGLApp
 
 
 ```
+Project → Properties → C/C++ → General → Additional Include Directories
+$(ProjectDir)include
+
+
+
+
+Project → Properties → Linker → General → Additional Library Directories
+$(ProjectDir)libs\glfw\lib-vc2022
+
+Linker → Input → Additional Dependencies
+glfw3.lib
