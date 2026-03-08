@@ -97,36 +97,4 @@ $(ProjectDir)libs\glfw\lib-vc2022
 glfw3.lib
 ```
 
----
 
-## ▶️ Build & Run
-
-If setup is correct:
-
-✅ Project builds without errors  
-✅ A window opens  
-✅ OpenGL is ready  
-
----
-
-## 💡 Notes
-
-• `.lib` files are for linking during build  
-• `.dll` files are required at runtime (place next to `.exe`)  
-• Make sure **x64** project matches **64-bit GLFW**
-
----
-
-## 🚀 Next Steps
-
-After setup you can learn:
-
-• Drawing your first triangle  
-• VBO / VAO / Shaders  
-• Textures  
-• Model loading  
-• Camera movement  
-
----
-
-Made for beginners getting started with OpenGL ❤️
