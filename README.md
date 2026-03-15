@@ -102,5 +102,18 @@ $(ProjectDir)libs\glfw\lib-vc2022
 ```
 glfw3.lib
 ```
+### Make sure glad.c is in your project
 
+Since your folder looks like this:
+
+OpenGLApp/
+├── main.cpp
+├── glad.c
+└── include/glad/glad.h
+
+In Visual Studio, add glad.c to the project:
+
+Right-click your project → Add → Existing Item → select glad.c
+
+Now it will compile along with your main.cpp
 
