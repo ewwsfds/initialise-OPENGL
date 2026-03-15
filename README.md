@@ -22,6 +22,12 @@ Generate at:
 https://glad.dav1d.de
 ```
 
+
+### ⚙️ stb_image 
+Donwload:
+```
+https://github.com/nothings/stb
+```
 Settings:
 
 • Language → C/C++  
@@ -64,7 +70,7 @@ OpenGLApp
 │   └── glm
 │
 ├── main.cpp
-├── sh_image.cpp
+├── stb_image.h
 └── glad.c
 ```
 
