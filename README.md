@@ -123,19 +123,7 @@ Now it will compile along with your main.cpp
 
 ---
 
-### ➤ Additional Library Directories
-`Project → Properties → Linker → General`
-
-```
-$(ProjectDir)libs\glfw\lib-vc2022
-```
-
----
-
-
----
-
-### ➤ Additional Library Directories
+### ➤ Assimp Additional Library Directories
 `Project → Properties → Linker → General → Additional Library Directories`
 
 ```
