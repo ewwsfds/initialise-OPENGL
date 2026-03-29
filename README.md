@@ -67,6 +67,8 @@ OpenGLApp
 │   │   └── glfw3.h
 │   ├── KHR
 │   │   └── khrplatform.h
+│   ├── assimp
+│   │   └── Importer.hpp
 │   └── glm
 │       └── glm.hpp
 │
@@ -74,6 +76,9 @@ OpenGLApp
 │   ├── glfw
 │   │   └── lib-vc2022
 │   │       └── glfw3.dll
+│   ├── assimp
+│   │   └── libs
+│   │   │  └── assimp-vc143-mt.lib
 │   └── glm
 │
 ├── main.cpp
@@ -115,3 +120,26 @@ glfw3.lib
 
 Now it will compile along with your main.cpp
 
+
+---
+
+### ➤ Additional Library Directories
+`Project → Properties → Linker → General`
+
+```
+$(ProjectDir)libs\glfw\lib-vc2022
+```
+
+---
+
+
+---
+
+### ➤ Additional Library Directories
+`Project → Properties → Linker → General → Additional Library Directories`
+
+```
+$(ProjectDir)libs\assimp\lib
+```
+
+---
