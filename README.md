@@ -131,3 +131,4 @@ $(ProjectDir)libs\assimp\lib
 ```
 
 ---
+### ➤ Make sure assimp-vc143-mt.dll is inside 64x/debug
