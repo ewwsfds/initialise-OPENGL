@@ -51,7 +51,7 @@ https://github.com/g-truc/glm
 ### Assimp
 Download:
 ```
-https://github.com/assimp/assimp/releases
+https://kimkulling.itch.io/the-asset-importer-lib)
 ```
 
 ---
