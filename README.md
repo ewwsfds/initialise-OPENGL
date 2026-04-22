@@ -130,5 +130,12 @@ Now it will compile along with your main.cpp
 $(ProjectDir)libs\assimp\lib
 ```
 
+### ➤ Linker Dependencies
+`Linker → Input → Additional Dependencies`
+
+```
+assimp-vc143-mt.lib
+```
+
 ---
 ### ➤ Make sure assimp-vc143-mt.dll is inside 64x/debug
