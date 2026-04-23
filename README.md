@@ -104,6 +104,8 @@ $(ProjectDir)include
 
 ```
 $(ProjectDir)libs\glfw\lib-vc2022
+$(ProjectDir)libs\assimp\lib
+
 ```
 
 ---
@@ -113,6 +115,8 @@ $(ProjectDir)libs\glfw\lib-vc2022
 
 ```
 glfw3.lib
+assimp-vc143-mt.lib
+
 ```
 ### Make sure glad.c is in your project
 
@@ -123,19 +127,4 @@ Now it will compile along with your main.cpp
 
 ---
 
-### ➤ Assimp Additional Library Directories
-`Project → Properties → Linker → General → Additional Library Directories`
-
-```
-$(ProjectDir)libs\assimp\lib
-```
-
-### ➤ Linker Dependencies
-`Linker → Input → Additional Dependencies`
-
-```
-assimp-vc143-mt.lib
-```
-
----
-### ➤ Make sure assimp-vc143-mt.dll is inside 64x/debug
+### ➤ Make sure assimp-vc143-mt.dll is inside 64x/debug where .exe file is
