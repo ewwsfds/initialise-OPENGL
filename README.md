@@ -104,7 +104,7 @@ $(ProjectDir)include
 
 ```
 $(ProjectDir)libs\glfw\lib-vc2022
-$(ProjectDir)libs\assimp\lib
+$(ProjectDir)libs\assimp\lib\x64
 
 ```
 
