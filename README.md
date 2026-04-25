@@ -26,7 +26,7 @@ https://glad.dav1d.de
 ### ⚙️ stb_image 
 Donwload:
 ```
-https://github.com/nothings/stb
+https://github.com/nothings/stb/blob/master/stb_image.h
 ```
 Settings:
 
