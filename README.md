@@ -108,6 +108,10 @@ $(ProjectDir)libs\assimp\lib
 
 ```
 
+```
+$(ProjectDir)libs\glfw\lib-vc2022;$(ProjectDir)libs\assimp\lib
+```
+
 ---
 
 ### ➤ Linker Dependencies
